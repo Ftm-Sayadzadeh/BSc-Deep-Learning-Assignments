@@ -26,9 +26,8 @@ T4 GPU (about 7 minutes). The classes are defined in `data.yaml`: `one, two, thr
 
 ### 3. Real-time inference — `realtime_demo.py`
 
-Loads the trained weights from `weights/best.pt`, runs the detector on every webcam frame (confidence threshold 0.5,
-image size 640) and draws the boxes and labels. Press **q** to quit. The weights file is not part of this repository:
-train the model first and copy the resulting `best.pt` into a `weights/` folder.
+Loads `weights/best.pt`, runs the detector on every webcam frame (confidence threshold 0.5, image size 640) and
+draws the boxes and labels. Press **q** to quit.
 
 ## Results
 
@@ -57,6 +56,7 @@ split of video frames would not do, because consecutive frames are almost identi
 | `train_yolo.ipynb` | Colab notebook that trains YOLOv8n on the collected data |
 | `data.yaml` | Dataset configuration (6 classes) |
 | `realtime_demo.py` | Real-time webcam detection with the trained model |
+| `weights/best.pt` | The trained YOLOv8n weights (6 MB) |
 
 ## Run
 
@@ -69,7 +69,8 @@ python collect_data.py
 # 2. train: upload the dataset and data.yaml to Colab and run train_yolo.ipynb
 #    (adjust the `path` in data.yaml to wherever your dataset folder is)
 
-# 3. copy the trained best.pt (Ultralytics saves it in runs/detect/train/weights/) into a weights/ folder,
-#    then try the detector with the webcam
+# 3. try the detector with the webcam
 python realtime_demo.py
 ```
+
+To use your own trained model, replace `weights/best.pt` (Ultralytics saves it in `runs/detect/train/weights/`).

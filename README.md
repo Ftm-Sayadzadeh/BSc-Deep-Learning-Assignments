@@ -36,9 +36,9 @@ Large or private files are left out on purpose:
 | Datasets of the smile and ECG projects | Public datasets, too large to store here (the ECG CSV files alone are about 550 MB) | See the "Data" section of each project README |
 | Dataset of the hand-gesture project | Collected and labelled by ourselves, not published | Collect your own with `hand-gesture-yolo/collect_data.py` |
 | Demo videos | Several tens of MB each | — |
-| Trained weights of the smile, PTB-DB and gesture-YOLO models | 6–38 MB each | Re-run the notebooks to train them |
+| Trained weights of the smile and PTB-DB models | 28–38 MB each | Re-run the notebooks to train them |
 
-Only the small MIT-BIH model is included:
+The two small models are included: `hand-gesture-yolo/weights/best.pt` (6 MB) and
 `ecg-heartbeat-classification/mitbih-arrhythmia/ecg_mitbih_model.keras` (0.9 MB).
 
 ## Setup

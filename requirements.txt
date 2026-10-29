@@ -1,0 +1,11 @@
+tensorflow
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+opencv-python
+mtcnn
+ultralytics
+mediapipe
+jupyter

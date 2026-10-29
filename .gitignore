@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets / local config
+.env
+
+# Datasets (not published here, see the project READMEs)
+*.csv
+dataset/
+datasets/
+hand_data*.zip
+*.zip
+
+# Large artifacts
+*.mp4
+*.h5
+*.pkl
+runs/
+smile-detection/*.keras
+ecg-heartbeat-classification/ptbdb-normal-vs-abnormal/*.keras
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -34,7 +34,7 @@ Large or private files are left out on purpose:
 | Not included | Why | Where to get it |
 |---|---|---|
 | Datasets of the smile and ECG projects | Public datasets, too large to store here (the ECG CSV files alone are about 550 MB) | See the "Data" section of each project README |
-| Dataset of the hand-gesture project | Collected and labelled by ourselves, not published | Collect your own with `hand-gesture-yolo/collect_data.py` |
+| Dataset of the hand-gesture project | Self-collected and auto-labelled, not published | Collect your own with `hand-gesture-yolo/collect_data.py` |
 | Demo videos | Several tens of MB each | — |
 | Trained weights of the smile and PTB-DB models | 28–38 MB each | Re-run the notebooks to train them |
 

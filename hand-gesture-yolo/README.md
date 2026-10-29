@@ -1,8 +1,8 @@
 # Hand Gesture Detection with YOLOv8 — Digits 1–5 and the OK Sign
 
 A real-time detector that finds a hand in the webcam image and tells which gesture it makes: the digits
-**one, two, three, four, five** (by the number of raised fingers) or the **OK** sign. The dataset was collected and
-labelled by ourselves; the labelling is automated with MediaPipe, and a YOLOv8n model is trained on the result.
+**one, two, three, four, five** (by the number of raised fingers) or the **OK** sign. The dataset was collected with a
+webcam and labelled automatically with MediaPipe, and a YOLOv8n model is trained on the result.
 
 > The dataset is **not** included in this repository. Use `collect_data.py` to build your own.
 

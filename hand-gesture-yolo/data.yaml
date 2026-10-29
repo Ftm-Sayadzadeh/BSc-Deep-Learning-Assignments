@@ -1,0 +1,6 @@
+path: ../dataset 
+train: train/images 
+val: train/images   
+
+nc: 6 
+names: ['one', 'two', 'three', 'four', 'five', 'ok']
